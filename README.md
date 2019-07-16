@@ -1,5 +1,4 @@
-# CS-1632
-#### Projects from CS 1632 ~ Software Quality Assurance
+### Projects from CS 1632 ~ Software Quality Assurance
 
 
 All Java projects are configured to work from an Eclipse Workspace.
