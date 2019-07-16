@@ -1,7 +1,7 @@
 # GoldRush
 ## Deliverable 2 ~ Unit Testing
 
-### Key Concepts and Technologies:
+#### Key Concepts and Technologies:
 * Dependency Injection
 * JUnit, Eclipse Environment
 * Mockito

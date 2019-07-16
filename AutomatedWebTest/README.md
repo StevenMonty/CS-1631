@@ -1,21 +1,26 @@
-# Deliverable3
+# GoldRush
+### Deliverable 3 ~ Automated Web Testing w/ Selenium
 
-## Description of issues faced
-Hello Dustin!
+#### Key Concepts and Technologies:
+* Selenium
+* JUnit
+* HTML
 
-While this project took less time than project two, it definitely came with its own set of challenges.
+#### Purpose
+The purpose of this project was to write systems-level, automated black-box tests for a web app using Selenium.
 
-Top challenges include:
-* **Balance**: It was a challenge to ensure comprehensiveness of testing, not crushing our souls with the number of tests, and ensuring that we are covered all boundary/edge cases.
-* **Hitting the 20-30 Test Specification**: We started off with 45 tests, combined to 14, then broke out into 17. Some tests felt like they could have multiple assertions, because if one failed the entire requirement was not met (i.e., all-or-nothing). The setup in an actual environment would be customized to what the testers wanted to have highlighted.
-* **Knowing What to Test**: With the images, originally we had the impression that you wanted us to check if an image itself (something larger than a pixel was present), the ALT text was much easier to test.
-* **Selenium Setup**: Selenium setup was fairly straight-forward (especially with your base-code), but we did have a minor issue getting started with Safari. Through downloading a new driver, we were able to resolve.
-* **Not Being Tempted by Corner Cases**: We noticed some corner cases (inputing doubles and strings where they do not belong) that caused internal server errors. This is something we would probably address in a test plan and bring up to developers, but not include in our automated unit tests (until it was resolved).
+#### Requirements
+App homepage: https://cs1632summer2019.herokuapp.com/
+1. The homepage shall display the text "Welcome, friend, to a land of pure calculation" as well as "Used for CS1632 Software Quality Assurance, taught by Dustin Iser".  There may or may not be carriage returns ("\n") in either of these texts.
+2. Every page shall include five links at the top, to "CS1632 D3 Home", "Factorial", "Fibonacci", "Hello", and "Cathedral Pics".  These shall link to `/`, `/fact`, `/fib`, `/hello`, and `/cathy`, respectively.
+3. The factorial page (`/fact`) shall allow a user to enter a positive integer from 1 to 30, and upon pressing submit, shall show to the user the factorial of the value (e.g. "Factorial of 5 is 120!").
+4. The Fibonacci page (`/fib`) shall allow a user to enter a positive integer from 1 to 30, and upon pressing submit, shall show to the user the Fibonnaci of the value (e.g. "Fibonacci of 5 is 8!").
+5. For both the Fibonacci and Factorial pages, if a user enters an invalid value of any kind, they shall be informed that the value is 1 (e.g., "Fibonacci of -100 is 1!")
+6. Accessing the hello page (`/hello`) with no trailing values in the URL shall display the message "Hello CS1632, from Prof. Iser!".
+7. If a trailing value is provided in the URL when accessing the `/hello` page, then the message shall display hello from that trailing value.  For example, when accessing `/hello/Jazzy`, the system shall display "Hello CS1632, from Jazzy!".  This shall work for all input values.
+8. The Cathedral page (`/cathy`) shall display three images of the Cathedral of Learning in a numbered list.
 
-No tests failed (once the Fibonacci requirement was dropped down to 30).
+#### Test Results
+All tests passed.  
 
 ![Tests](Tests.png)
-
-Thank you,
-
-Steven and Alexis
