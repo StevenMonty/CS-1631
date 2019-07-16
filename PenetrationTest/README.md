@@ -2,6 +2,7 @@
 ### Deliverable 3.5 ~ Extra Credit
 
 #### Key Concepts and Technologies:
+* OWASP ZAP
 * SQL Injection Attacks
 * Cross-Site Scripting
 * The InfoSec Triad
@@ -10,7 +11,7 @@
 ##### Purpose
 The prupose of this project was to learn the basics of web security
 vulnerabilities and how they can be exploited to compromise confidential
-data.
+data from these test sites: https://techguile.wordpress.com/2012/11/25/list-of-demo-websites-of-security-testing-purpose/
 
 ##### VULNERABILITY 1
 
