@@ -45,7 +45,6 @@ A prospector shall prospect until they have visited five locations. This may inc
 
 Prospectors shall find the following amounts of gold and silver at each iteration at each location. Note that the numbers indicated are a maximum. Prospectors shall find between 0 and the maximum number of ounces shown per iteration.
 
-```
 Location     | Max Silver | Max Gold
 ------------------------------------
 Sutter Creek |    0       |    2
@@ -56,7 +55,6 @@ Virginia City|    3       |    3
 Midas        |    5       |    0
 El Dorado Cn |   10       |    0
 ------------------------------------
-```
 At each iteration, the simulation shall display how many ounces of gold and/or silver were discovered. If neither was discovered, the system shall state that no precious metals were found. If only one was discovered, the system shall only print the number of ounces found of that metal (in other words, the system shall never display that 0 ounces of a metal were found).
 
 When heading to a new location, the simulator shall display the new location, along with the amount of gold and silver they are holding.
