@@ -1,5 +1,5 @@
-# GoldRush
-### Deliverable 3 ~ Automated Web Testing w/ Selenium
+# Automated Web Testing
+### Deliverable 3
 
 #### Key Concepts and Technologies:
 * Selenium

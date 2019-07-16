@@ -1,12 +1,24 @@
-# Deliverable-3.5 - PEN TESTING EXTRA CREDIT 
+# Penetration Testing
+### Deliverable 3.5 ~ Extra Credit
 
-## VUNLERABILITY #1
+#### Key Concepts and Technologies:
+* SQL Injection Attacks
+* Cross-Site Scripting
+* The InfoSec Triad
+* Web Security Best-Practice
+
+##### Purpose
+The prupose of this project was to learn the basics of web security
+vulnerabilities and how they can be exploited to compromise confidential
+data.
+
+##### VULNERABILITY 1
 
 **URL:** http://demo.testfire.net/login.jsp
 
 **VULNERABILITY:** SQL Injection
 
-**STEPS TO EXPLOIT:** 
+**STEPS TO EXPLOIT:**
 
 	1. Navigate to login page (http://demo.testfire.net/login.jsp)
 	2. In the username input field use a SQL injection (e.g., `r' or 1 =1--`)
@@ -19,7 +31,7 @@
 
 **B. What kind of security attack can exploit this vulnerability (interruption, interception, modification, or fabrication)?**
 
-* Interception 
+* Interception
 * Modification (This attack gives the user Admin priviledges, granting them access to all accounts in the bank) SM
 
 **C. Are attacks that exploit this vulnerability active or passive?**
@@ -37,7 +49,7 @@
 * Sanitize input fields
 
 
-## VUNLERABILITY #2
+##### VULNERABILITY 2
 
 **URL:** http://demo.testfire.net/login.jsp
 
@@ -73,7 +85,7 @@
 * Update admin password to be more challenging to guess (e.g., capital letters, number, symbols, 8+ characters, no basic passwords)
 
 
-## VUNLERABILITY #3
+##### VULNERABILITY 3
 
 **URL:** http://crackme.cenzic.com/kelev/php/login.php
 
@@ -105,7 +117,7 @@
 
 **E. What steps should the development team take to fix this vulnerability?**
 
-* Avoid trusting inputs by HTML, attribute, CSS, and JavaScript escaping 
+* Avoid trusting inputs by HTML, attribute, CSS, and JavaScript escaping
 * Sanitize input fields
 * Enable XSS protection header (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
 * Go through this checklist: https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.md

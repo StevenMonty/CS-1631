@@ -1,5 +1,5 @@
 # GoldRush
-## Deliverable 2 ~ Unit Testing
+### Deliverable 2 ~ Unit Testing
 
 #### Key Concepts and Technologies:
 * Dependency Injection
